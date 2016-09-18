@@ -14,9 +14,7 @@ import java.io.InputStream;
 import java.net.Socket;
 import java.net.UnknownHostException;
 
-/**
- * Created by nrv on 9/18/16.
- */
+
 public class NetService extends Service {
 Context servicecontext;
     @Nullable
@@ -66,7 +64,7 @@ Context servicecontext;
 
                                 Intent intent = new Intent();
                                 intent.putExtra("data", data);
-                                intent.setAction("com.ucsc.pnp.pettrack.CUSTOM");
+                                intent.setAction("com.ucsc.pnp.fire.CUSTOM");
                                 sendBroadcast(intent);
                                 Log.e("Service", data);
 

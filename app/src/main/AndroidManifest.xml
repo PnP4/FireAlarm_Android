@@ -22,6 +22,7 @@
             android:name=".AlertWindow"
             android:label="@string/title_activity_alert_window"
             android:theme="@style/AppTheme.NoActionBar"></activity>
+        <service android:name=".NetService"/>
     </application>
 
 </manifest>
